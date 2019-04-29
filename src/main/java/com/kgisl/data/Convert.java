@@ -4,30 +4,20 @@ import java.util.*;
 
 public class Convert {
 
-    public static String[] GetStringArray(ArrayList<String> arr) {
-
-        String str[] = new String[arr.size()];
-
-        for (int j = 0; j < arr.size(); j++) {
-
-            str[j] = arr.get(j);
-        }
-
-        return str;
-    }
-
     public static void main(String[] args) {
 
-        ArrayList<String> a1 = new ArrayList<String>();
+        ArrayList<String> arrlist = new ArrayList<String>();
+        arrlist.add("sasi");
+        arrlist.add("sanju");
+        arrlist.add("kavin");
 
-        a1.add("Sasi");
-        a1.add("sanju");
-        a1.add("gowtham");
+        String array[] = new String[arrlist.size()];
+        for (int j = 0; j < arrlist.size(); j++) {
+            array[j] = arrlist.get(j);
+        }
 
-        System.out.println("ArrayList: " + a1);
-
-        String[] str = GetStringArray(a1);
-
-        System.out.print("String Array[]: " + Arrays.toString(str));
+        for (String k : array) {
+            System.out.println(k);
+        }
     }
 }

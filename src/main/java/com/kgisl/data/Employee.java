@@ -8,27 +8,27 @@ public class Employee {
     int empid;
     String name;
     String dept;
-    float salary;
+    double salary;
 
-    public Employee(int empid, String name, String dept, float salary) {
+    public Employee(int empid, String name, String dept, double salary) {
         this.empid = empid;
         this.name = name;
-        this.dept = name;
+        this.dept = dept;
         this.salary = salary;   
     }
-    public int empid() {
+    public int  getempid() {
         return empid;
     }
-    public String name() {
+    public String getname() {
         return name;
     }
-    public String dept() {
+    public String getdept() {
         return dept;
     }
-    public float salary() {
+    public double getsalary() {
         return salary;
     }
-    public String toString() {
-        return "\nempid:"+ empid + "\nname" + name + "\ndept" + dept + "\nsalary" + salary;
+    public String toString() { 
+        return "\nempid: "+ empid + "\nname " + name + "\ndept " + dept + "\nsalary " + salary;
     }
 }

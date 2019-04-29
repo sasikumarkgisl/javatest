@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-App<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.App",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Chain<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Chain",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Child<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Child",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Comma<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Comma",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Compar<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Compar",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Conversion<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Conversion",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Convert<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Convert",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Data<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Data",
+            "projectName": "data"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Simple<data>",
+            "request": "launch",
+            "mainClass": "com.kgisl.data.Simple",
+            "projectName": "data"
+        }
+    ]
+}

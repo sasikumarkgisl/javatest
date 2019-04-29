@@ -8,11 +8,11 @@ import java.util.Arrays;
  */
 public class App {
 
-    public static <T> ArrayList<T> removeDuplicates(ArrayList<T> list) {
+    public static <Integer> ArrayList<Integer> removeDuplicates(ArrayList<Integer> list) {
 
-        ArrayList<T> newList = new ArrayList<T>();
+        ArrayList<Integer> newList = new ArrayList<Integer>();
 
-        for (T element : list) {
+        for (Integer element : list) {
 
             if (!newList.contains(element)) {
 
